@@ -11,7 +11,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Noa Shadmon's STA141B Portfolio</h1> 
-       #{{ site.title | default: site.github.repository_name }}</h1>
+       <!--{{ site.title | default: site.github.repository_name }}</h1>-->
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -21,7 +21,6 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </section>
-    #<h1>hello world</h1>
     <section class="main-content">
       {{ content }}
 
