@@ -10,7 +10,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Noa Shadmon Projects</h1>
+      <h1 class="project-name">Sta 141b</h1>
        <!--{{ site.title | default: site.github.repository_name }}</h1>-->
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
@@ -22,34 +22,14 @@
       {% endif %}
     </section>
     <section class="main-content">
-      <Center><h3>About me</h3></Center>
-        I am a third year computer science and statistics double major at UC Davis.<br>
-        My top 3 current interests are:
+      <Center><h3>Goal</h3></center>
+        The main goal of sta141b is for students to gain experience through data science projects. This is done with learning SQL, web scraping, using APIs, data visualization, and more.
+        In this course, there were 6 mini projects and one final, group project. Programming in this class was in Python.
         <ul>
-          <li>Machine Learning</li>
-          <li>Data structures/Database design</li>
-          <li>Data Science/Big Data</li>
+          <li><b>Assignment 1</b>: In this assignment we had to program an algorithm for calculating Doomsday. Once that was done, I wrote a method that determines the day of the week for a given date.
+          Lastly, a function that calculates how many birthdays occured in each month/day in 1978. To see my algorithm check out my <a href = "{{homeworks/assignment1.ipynb}}">iPython Notebook</a></li>
         </ul>
-        <br><br>
-        <Center><h3>Projects</h3></center>
-        <ul>
-          <li>Data Science Projects</li>
-            <ul>
-              <li><a href="STA141B/index.html"></li>
-            </ul>
-          <li>Programming Projects</li>
-            <ul>
-              <li>One of my first programming projects was to create a fake Unix environment. This program, called 
-              <a href="https://github.com/noashadmon/funix">Funix</a> has the commands ls, mkdir, setUmask, chmod, and cd.</li>
-              <li>In this project, called <a href = "https://github.com/noashadmon/BTree">BTree</a>, I had to implement the BTree datastructure. This program reads in a file of numbers and stores them in a BTree.</li>
-              <li>In the <a href="https://github.com/noashadmon/ecs140">ECS140</a> repository, there are two folders. HW3 includes a project that deals with object oriented programming in java. Here you will find super and sub classes. HW5 is a program written in the language Lisp.</li>
-              <li>In <a href="https://github.com/noashadmon/ecs50">ECS50</a> repository there are two folders. P1 has three c++ programs. One takes in a number (base 10) and an input (base you want to change the number to) and calculates the new number with that base. The other does matrix multiplication, and the third one takes in a floating point number and returns the scientific number equivalent. </li>
-              <li>In <a href="https://github.com/noashadmon/ecs154a">ECS 154</a> we have 5 folders. CacheFinal has the circuit file (to be opened with logism) for a cache. HW4 is my implementation (another .circ file) for a 4 bit CPU. HW2 contains a circuit file that does 4 bit addition and a circuit file to shift a number 3 places. HW3 contains a circuit file that does 4 bit parity check, a circuit file that counts up and down, and a circuit file that simulates a vending machine. Lastly, midterm contains a 5 bit division circuit file.</li>
-              <li><a href="https://github.com/noashadmon/ecs152">ECS152</a> contains a python file that simulates the binary backoff/linear backoff algorithm for an ethernet.</li>
-              <li><a href="https://github.com/noashadmon/RouterRunner">Router Runner</a> Uses bredth first search to simulate electricity being transfered from city to city when there is an outage.</li>
-            </ul>
 
-        </ul>
       {{ content }}
       <footer class="site-footer">
         {% if site.github.is_project_page %}
@@ -73,4 +53,3 @@
     {% endif %}
   </body>
 </html>
-
